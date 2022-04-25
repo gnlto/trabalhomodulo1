@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.principal {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(30, 2, 78);
+    background: linear-gradient(135deg, rgba(30, 2, 78, 1) 0%, rgba(2, 69, 131, 1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    width: 33vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    width: 33vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 33vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carda {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.349);
+
+}
+
+.cardb {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.349);
+}
+
+.cardc {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.349);
+}
+
+.comecarjogo {
+    padding: 12px 12px;
+    margin: 25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.158);
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(205, 231, 255, 1) 100%);
+    font-weight: 700;
+}
+
+.carda {
+    background-image: url(./assets/anakan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cardb {
+    background-image: url(./assets/cowboy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cardc {
+    background-image: url(./assets/laika.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.titulo {
+    color: white;
+}
